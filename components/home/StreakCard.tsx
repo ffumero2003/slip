@@ -11,7 +11,7 @@
 
 import { ThemedText } from "@/components/themed-text";
 import { ThemedView } from "@/components/themed-view";
-import { useColorScheme } from "@/hooks/use-color-scheme";
+import { useColorScheme } from "@/hooks/useColorScheme";
 import { useStreak } from "@/hooks/useStreak";
 import React from "react";
 import { StyleSheet, View } from "react-native";
@@ -88,7 +88,7 @@ const styles = StyleSheet.create({
     borderRadius: 16,
     padding: 20,
     marginHorizontal: 16,
-    marginVertical: 8,
+    marginVertical: 16,
 
     // Center content
     alignItems: "center",

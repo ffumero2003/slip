@@ -146,7 +146,7 @@ export function SlipButton() {
 const styles = StyleSheet.create({
   container: {
     // Give the button area some breathing room
-    paddingVertical: 24,
+    paddingVertical: 10,
     alignItems: "center",
   },
 

@@ -1,7 +1,7 @@
 // "Tabs" is a component from Expo Router that creates the bottom tab bar
 // Think of it like a container that holds all your tab buttons
 import { Colors } from "@/constants/theme";
-import { useColorScheme } from "@/hooks/use-color-scheme";
+import { useColorScheme } from "@/hooks/useColorScheme";
 import { Ionicons } from "@expo/vector-icons";
 import { Tabs } from "expo-router";
 import React from "react";

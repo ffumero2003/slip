@@ -35,8 +35,8 @@ import { TodayStatus } from "@/components/home/TodayStatus";
 import { UndoButton } from "@/components/home/UndoButton";
 
 // Stores - to load data on mount
-import { useSettingsStore } from "@/store/settingsStore";
-import { useSlipStore } from "@/store/slipStore";
+import { useSettingsStore } from "@/stores/settingsStore";
+import { useSlipStore } from "@/stores/slipStore";
 
 // =============================================================================
 // THE HOME SCREEN COMPONENT

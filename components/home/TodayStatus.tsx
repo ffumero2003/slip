@@ -108,13 +108,13 @@ const styles = StyleSheet.create({
     // Center everything
     alignItems: "center",
     // Add vertical padding
-    paddingVertical: 24,
+    paddingVertical: 20,
   },
 
   habitName: {
     // Smaller text above the count
     fontSize: 16,
-    opacity: 0.7,
+    opacity: 1,
     marginBottom: 8,
     textTransform: "capitalize", // "vaping" → "Vaping"
   },
