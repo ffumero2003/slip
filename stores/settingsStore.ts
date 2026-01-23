@@ -153,11 +153,12 @@ export function useHabitName(): string {
 /**
  * Get reminder settings
  */
-export function useReminderSettings(): { enabled: boolean; time: string } {
-  return useSettingsStore((state) => ({
-    enabled: state.settings.reminderEnabled,
-    time: state.settings.reminderItem,
-  }));
+export function useReminderEnabled(): boolean {
+  return useSettingsStore((state) => state.settings.reminderEnabled);
+}
+
+export function useReminderTime(): string {
+  return useSettingsStore((state) => state.settings.reminderItem);
 }
 
 // =============================================================================

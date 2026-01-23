@@ -103,11 +103,13 @@ const styles = StyleSheet.create({
 
   emoji: {
     fontSize: 32,
+    lineHeight: 55, // Prevent text clipping
   },
 
   streakNumber: {
-    fontSize: 48,
+    fontSize: 38,
     fontWeight: "700",
+    lineHeight: 55, // Prevent text clipping
   },
 
   label: {

@@ -145,7 +145,7 @@ const styles = StyleSheet.create({
   scrollContent: {
     // Add padding at top and bottom
     paddingTop: 20,
-    paddingBottom: 40,
+    paddingBottom: 100,
   },
 
   // Loading state

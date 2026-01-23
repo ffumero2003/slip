@@ -122,14 +122,14 @@ const styles = StyleSheet.create({
   countContainer: {
     // Horizontal layout for "3 / 5"
     flexDirection: "row",
-    alignItems: "baseline", // Align text at the bottom
+    alignItems: "center", // Align text at the bottom
   },
 
   count: {
     // The big number
     fontSize: 72,
     fontWeight: "700",
-    lineHeight: 80, // Prevent text clipping
+    lineHeight: 86, // Prevent text clipping
   },
 
   limit: {
@@ -137,6 +137,7 @@ const styles = StyleSheet.create({
     fontSize: 32,
     fontWeight: "400",
     opacity: 0.5,
+    lineHeight: 40, // Prevent text clipping
   },
 
   badge: {

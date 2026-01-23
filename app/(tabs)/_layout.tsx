@@ -12,7 +12,13 @@ export default function TabLayout() {
 
   return (
     //edges top = will only affect the top area
-    <SafeAreaView style={{ flex: 1 }} edges={["top"]}>
+    <SafeAreaView
+      style={{
+        flex: 1,
+        backgroundColor: Colors[colorScheme ?? "light"].background,
+      }}
+      edges={["top"]}
+    >
       <Tabs
         screenOptions={{
           // tabBarActiveTintColor = the color of the icon/text when tab is SELECTED
